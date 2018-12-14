@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Navigation ViewPager Transition</string>
+
+    <string name="logo_transition" translatable="false">Logo Transition</string>
+
+    <string name="first_fragment">First</string>
+    <string name="second_fragment">Second</string>
+    <string name="third_fragment">Third</string>
+
+    <string-array name="fragment_titles">
+        <item>@string/first_fragment</item>
+        <item>@string/second_fragment</item>
+        <item>@string/third_fragment</item>
+    </string-array>
 </resources>
