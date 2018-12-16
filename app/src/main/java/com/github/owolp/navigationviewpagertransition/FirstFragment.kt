@@ -14,17 +14,17 @@ class FirstFragment : Fragment() {
         private const val CALLBACK_FUNC = "callback"
 
         fun newInstance(
-            callback: PagerFragment.ViewCreatedListener
+                callback: PagerFragment.ViewCreatedListener
         ): FirstFragment {
             return FirstFragment().apply {
                 arguments = bundleOf(
-                    CALLBACK_FUNC to callback
+                        CALLBACK_FUNC to callback
                 )
             }
         }
-
-        private lateinit var callback: PagerFragment.ViewCreatedListener
     }
+
+    private lateinit var callback: PagerFragment.ViewCreatedListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
